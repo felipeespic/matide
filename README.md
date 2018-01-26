@@ -1,8 +1,8 @@
 # Matide
 
-Python IDE solution for people that works on signal/image processing **or any field that requires a lot of interaction with plots and debugging.**
+Python IDE solution for signal/image processing **or any field that requires a lot of interaction with plots and debugging.**
 
-It is basically a guide to install and use a set of 3rd party tools, which if used together behave like an awesome Python IDE that:
+**Matide** is basically a guide (plus some scripts) to install and use a set of 3rd party tools, which if used together behave like an awesome Python IDE that:
 
 * Is light weight.
 * Resembles **MATLAB's** workflow.
@@ -14,15 +14,13 @@ It is basically a guide to install and use a set of 3rd party tools, which if us
 
 ## I. Motivation
 
-As a signal processing engineer, I used to use **MATLAB** to prototype my algorithms until I discovered the benefits of using Python. So, I searched for good Python IDEs, but each failed in some way to fulfil my requirements. I have been using this for a long time, and I have not found anything better for my needs, so I decided to share this guide with the community.
+As a signal processing engineer, I used to use **MATLAB** to prototype my algorithms until I discovered the benefits of using Python. So, I searched for good Python IDEs, but each failed in some way to fulfil my requirements. I have been using this set of tools for a long time, and I have not found anything better for my needs, so I decided to share this guide with the community.
 
 ## II. Install
-As mentioned, rather than an actual IDE fully contained in one package, it is just a collection of tools, which are installed separately.
-
-This guide has been designed based on **GNU/Linux**, but it should work for MacOSx similarly.
+As mentioned, rather than an actual IDE fully contained in one package, it is just a collection of tools, which are installed separately. I use **GNU/Linux**, but it should work for MacOSx similarly.
 
 ### II.I Download
-Download **Matide** master directory and move it to its _definitive_ location in your PC. After installation and configuration, you will not be able to move this directory without breaking **Matide**.
+Download **Matide** master directory and move it to its _definitive_ location in your PC. After install and configuration, you will not be able to move this directory without breaking **Matide**.
 
 ### II.II Python packages
 Install the following list of Python packages:
@@ -33,7 +31,6 @@ Install the following list of Python packages:
 * matplotlib
 * pyflakes
 * pep8
-* plotly (optional, for interactive 3D plotting)
 
 I recommend installing them by using the command: ```pip install --upgrade <package>```
 ### II.III Sublime Text
@@ -42,7 +39,7 @@ We will use SublimeText as the default text editor. To install it, just follow t
 ### II.IV Sublime Text plug-ins ("packages"):
 1. We need to install the "Package Control" (Sublime Text package manager), which will enable the installation of Sublime Text packages (plug-ins). Just follow the installing instructions from its [download webpage](https://packagecontrol.io/installation).
 
-2. Adding the package __PythonBreakpoints2__ repository to Sublime Text:
+2. Add the package __PythonBreakpoints2__ repository to Sublime Text:
    1. From Sublime Text, press ```ctrl+shift+p (Win, Linux)``` or ```cmd+shift+p (OS X)``` to open the palette.
    2. Input in the palette: **_Package Control: Add Repository_**
    3. Input in the field that appeared at the bottom: **_https://github.com/felipeespic/PythonBreakpoints2_**
@@ -52,9 +49,9 @@ We will use SublimeText as the default text editor. To install it, just follow t
    * SendCode
    * Anaconda (don't get confused with the Python package)
    * PythonBreakpoints2
-   * Trailing Spaces (optional)
+   * Trailing Spaces
 
-   To install them, follow the next steps per package to install:
+   To install them, follow the next steps per package:
    1. From Sublime Text, press ```ctrl+shift+p (Win, Linux)``` or ```cmd+shift+p (OS X)``` to open the palette.
    2. Input in the palette: **_Package Control: Install Package_**
    3. Search by typing the package name, and enter to install.
