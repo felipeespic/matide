@@ -29,6 +29,7 @@ Download **Matide** master directory and move it to its _definitive_ location in
 Install the following list of Python packages:
 * ipython
 * ipdb
+* jedi
 * readline
 * numpy
 * matplotlib
