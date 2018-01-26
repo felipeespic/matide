@@ -1,0 +1,10 @@
+{
+    "anaconda_linting": true,
+    "python_interpreter": "/usr/bin/python",
+    "anaconda_linter_mark_style": "none", 
+    "anaconda_gutter_marks": true,
+    "anaconda_gutter_theme": "retina",   
+    "pep8": false,
+    "extra_paths":["/home/felipe/Dropbox/Projects/sublimetext_as_python_ide/matide_last/project_to_publish/matide/startup/profile_default/startup"],
+}
+   

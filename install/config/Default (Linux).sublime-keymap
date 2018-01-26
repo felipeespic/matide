@@ -1,0 +1,13 @@
+[
+    { "keys": ["ctrl+right"], "command": "next_view" },
+    { "keys": ["ctrl+left"], "command": "prev_view" },
+
+
+    {
+        "command": "anaconda_goto", "keys": ["ctrl+shift+g"], "context": [
+            {"key": "selector", "operator": "equal", "operand": "source.python"}
+        ]
+    },
+    { "keys": ["f9"], "command": "send_repl" },
+    { "keys": [""], "command": "sort_lines", "args": {"case_sensitive": false} },
+]

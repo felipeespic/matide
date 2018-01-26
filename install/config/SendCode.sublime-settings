@@ -1,0 +1,15 @@
+{
+    "default":
+    {
+        "auto_advance": true,
+        "auto_advance_non_empty": false,
+        "auto_expand_line": true,
+        "bracketed_paste_mode": false,
+        "prog": "tmux",
+        "python":
+        {
+            "bracketed_paste_mode": true,
+            "prog": "tmux"
+        },
+    },
+}

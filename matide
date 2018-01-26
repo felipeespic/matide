@@ -1,0 +1,51 @@
+#!/bin/bash
+
+# PARSE INPUT:------------------------------------------------------------------------------------
+if [ "$#" == "0" ]; then
+    WORKDIR=$HOME
+elif [ "$#" == "1" ]; then
+    WORKDIR=$1
+else
+    echo -e 'Usage: matide\n   or: matide <existing working directory>\n'
+    exit 1
+fi
+
+if [ ! -d "${WORKDIR}" ]; then
+    echo -e 'Usage: matide\n   or: matide <existing working directory>\n'
+    exit 1
+fi
+
+# RUN:------------------------------------------------------------------------------------------
+echo $WORKDIR
+
+
+# Matide dir:
+MATIDE_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+FAKE_IPYTHON_DIR=${MATIDE_DIR}/startup
+
+# Launch Sublime Text:
+subl -a ${WORKDIR}
+
+# Going to Working directory:
+cd $WORKDIR
+
+# Check if instance is already running:
+# ps cax | grep sublime_text > /dev/null
+# if [ $? -eq 0 ]; then
+#   echo "Process is running."
+# else
+#   echo "Process is not running."
+#   subl
+# fi
+
+# Launch terminal with tmux:
+gnome-terminal -e tmux
+tmux set-buffer -- "ipython --ipython-dir=$FAKE_IPYTHON_DIR"
+tmux paste-buffer -d
+tmux send-keys Enter
+
+
+
+
+
+
