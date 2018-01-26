@@ -1,6 +1,9 @@
 # Matide
+-----------------------------------------------------
 
-Python IDE solution for signal/image processing **or any field that requires a lot of interaction with plots and debugging.**
+Python IDE solution for signal/image processing **or any field that requires heavy interaction with plots and debugging.**
+
+![matide](https://user-images.githubusercontent.com/16511990/35426115-7b684f38-0258-11e8-999c-49f7e7ea8422.png)
 
 **Matide** is basically a guide (plus some scripts) to install and use a set of 3rd party tools, which if used together behave like an awesome Python IDE that:
 
@@ -12,17 +15,17 @@ Python IDE solution for signal/image processing **or any field that requires a l
 * Supports breakpoints.
 
 
-## I. Motivation
+## Motivation
 
 As a signal processing engineer, I used to use **MATLAB** to prototype my algorithms until I discovered the benefits of using Python. So, I searched for good Python IDEs, but each failed in some way to fulfil my requirements. I have been using this set of tools for a long time, and I have not found anything better for my needs, so I decided to share this guide with the community.
 
-## II. Install
+## Install
 As mentioned, rather than an actual IDE fully contained in one package, it is just a collection of tools, which are installed separately. I use **GNU/Linux**, but it should work for MacOSx similarly.
 
-### II.I Download
+### I. Download
 Download **Matide** master directory and move it to its _definitive_ location in your PC. After install and configuration, you will not be able to move this directory without breaking **Matide**.
 
-### II.II Python packages
+### II. Python packages
 Install the following list of Python packages:
 * ipython
 * ipdb
@@ -33,10 +36,10 @@ Install the following list of Python packages:
 * pep8
 
 I recommend installing them by using the command: ```pip install --upgrade <package>```
-### II.III Sublime Text
+### III. Sublime Text
 We will use SublimeText as the default text editor. To install it, just follow the instructions (and check its licencing) from its [official website](https://www.sublimetext.com/3).
 
-### II.IV Sublime Text plug-ins ("packages"):
+### IV. Sublime Text plug-ins ("packages"):
 1. We need to install the "Package Control" (Sublime Text package manager), which will enable the installation of Sublime Text packages (plug-ins). Just follow the installing instructions from its [download webpage](https://packagecontrol.io/installation).
 
 2. Add the package __PythonBreakpoints2__ repository to Sublime Text:
@@ -57,19 +60,19 @@ We will use SublimeText as the default text editor. To install it, just follow t
    3. Search by typing the package name, and enter to install.
 
 
-### II.V Some extra applications:
+### V. Some extra applications:
 We need some extra applications as well. So, install:
 * Gnome Terminal.
 * Tmux
 (In Ubuntu both are installed by ```sudo apt install tmux gnome-terminal```)
 
 
-## III. Configuration
+### VI. Configuration
 
 Run the script ```./install/configure.sh```. It essentially configures Sublime Text and its packages previously installed.
 
 
-## IV. Usage
+## Usage
 
 Run the script ```./matide <existing working directory>``` or ```./matide```(your HOME dir will be taken as working directory). It will open the console and the text editor for you.
 
