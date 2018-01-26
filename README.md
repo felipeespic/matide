@@ -46,7 +46,7 @@ We will use SublimeText as the default text editor. To install it, just follow t
 2. Add the package __PythonBreakpoints2__ repository to Sublime Text:
    1. From Sublime Text, press ```ctrl+shift+p (Win, Linux)``` or ```cmd+shift+p (OS X)``` to open the palette.
    2. Input in the palette: **_Package Control: Add Repository_**
-   3. Input in the field that appeared at the bottom: **_https://github.com/felipeespic/PythonBreakpoints2_**
+   3. Input in the field that appeared at the bottom: **_https://<i></i>github.com/felipeespic/PythonBreakpoints2_**
 
 
 3. Install the following set of Sublime Text packages:
