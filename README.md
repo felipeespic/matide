@@ -19,7 +19,7 @@ Python IDE solution for signal/image processing **or any field that requires hea
 
 As a signal processing engineer, I used to use **MATLAB** to prototype my algorithms until I discovered the benefits of using Python. So, I searched for good Python IDEs, but each failed in some way to fulfil my requirements. I have been using this set of tools for a long time, and I have not found anything better for my needs, so I decided to share this guide with the community.
 
-## Install
+## Installation
 As mentioned, rather than an actual IDE fully contained in one package, it is just a collection of tools, which are installed separately. I use **GNU/Linux**, but it should work for MacOSx similarly.
 
 ### I. Download
@@ -84,6 +84,15 @@ Basic actions:
 * Add breakpoint: ```ctrl+shift+B```
 * Switch focus between console and text editor: ```alt+tab```
 * Autocomplete in console and text editor: ```tab```
-* Interactive plotting: Type in console ```plot(array_1d)```, ```plotm(array_2d)```, ```surf(array_2d)```
+* Interactive plotting: Type in console ```plot(array_1d)```, ```plotm(array_2d)```, or ```surf(array_2d)```
 
+Advanced:
+* You can add your own interactive built-in functions (e.g.,```plotm()```), by modifying the IPython startup file ```./startup/profile_default/startup/startup.py```
+* Install another Python packages, such as **SciPy**, **Scikit-learn**, etc., by e.g., ```pip install <package>```
 
+## Collaboration
+The community and me will be very thankful if you can help to this project by:
+* Testing this guide and scripts in different platforms.
+* Proposing modifications to this guide to support MacOSx and Windows out of the box.
+* Proposing or asking for enhancements.
+Any of these can be discussed in the **Issues** section. You can create a personal fork, and then send a pull request.
