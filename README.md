@@ -91,7 +91,7 @@ Advanced:
 * You can add your own interactive built-in functions (e.g.,```plotm()```), by modifying the IPython startup file ```./startup/profile_default/startup/startup.py```
 * Install another Python packages, such as **SciPy**, **Scikit-learn**, etc., by e.g., ```pip install <package>```
 
-## Collaboration
+## Contributing
 The community and me will be very thankful if you can help to this project by:
 * Testing this guide and scripts in different platforms.
 * Proposing modifications to this guide to support MacOSx and Windows out of the box.
