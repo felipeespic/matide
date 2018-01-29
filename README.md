@@ -17,7 +17,7 @@ Python IDE solution for signal/image processing **or any field that requires hea
 
 ## Motivation
 
-As a signal processing engineer, I used to use **MATLAB** to prototype my algorithms until I discovered the benefits of using Python. So, I searched for good Python IDEs, but each failed in some way to fulfil my requirements. I have been using this set of tools for a long time, and I have not found anything better for my needs, so I decided to share this guide with the community.
+As a signal processing scientist, I used to use **MATLAB** to prototype my algorithms until I discovered the benefits of using Python. So, I searched for good Python IDEs, but each failed to fulfil my requirements in some way. I have been using this set of tools for a long time, and I have not found anything better for my needs, so I decided to share this guide with the community.
 
 ## Installation
 As mentioned, rather than an actual IDE fully contained in one package, it is just a collection of tools, which are installed separately. I use **GNU/Linux**, but it should work for MacOSx similarly.
@@ -65,7 +65,8 @@ We will use SublimeText as the default text editor. To install it, just follow t
 We need some extra applications as well. So, install:
 * Gnome Terminal.
 * Tmux
-(In Ubuntu both are installed by ```sudo apt install tmux gnome-terminal```)
+
+(e.g., in Ubuntu they both are installed by ```sudo apt install tmux gnome-terminal```)
 
 
 ### VI. Configuration
@@ -75,7 +76,7 @@ Run the script ```./install/configure.sh```. It essentially configures Sublime T
 
 ## Usage
 
-Run the script ```./matide <existing working directory>``` or ```./matide```(your HOME dir will be taken as working directory). It will open the console and the text editor for you.
+Run the script ```./matide <existing working directory>``` or ```./matide``` (your HOME will be taken as the working directory). It will open the console and the text editor for you.
 
 Then, you can create Python scripts in Sublime Text to start coding.
 
@@ -95,4 +96,5 @@ The community and me will be very thankful if you can help to this project by:
 * Testing this guide and scripts in different platforms.
 * Proposing modifications to this guide to support MacOSx and Windows out of the box.
 * Proposing or asking for enhancements.
+* Proposing an implementation for the **variable explorer**, which is not included in the current version.
 Any of these can be discussed in the **Issues** section. You can create a personal fork, and then send a pull request.
