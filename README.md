@@ -30,7 +30,7 @@ Install the following list of Python packages:
 * ipython
 * ipdb
 * jedi
-* readline
+* gnureadline
 * numpy
 * matplotlib
 * pyflakes
