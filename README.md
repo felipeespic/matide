@@ -63,11 +63,10 @@ We will use SublimeText as the default text editor. To install it, just follow t
 
 ### V. Some extra applications:
 We need some extra applications as well. So, install:
-* Gnome Terminal.
+* Gnome Terminal or Guake.
 * Tmux
 
-(e.g., in Ubuntu they both are installed by ```sudo apt install tmux gnome-terminal```)
-
+(e.g., in Ubuntu they can be installed by ```sudo apt install <application>```)
 
 ### VI. Configuration
 
@@ -76,7 +75,7 @@ Run the script ```./install/configure.sh```. It essentially configures Sublime T
 
 ## Usage
 
-Run the script ```./matide <existing working directory>``` or ```./matide``` (your HOME will be taken as the working directory). It will open the console and the text editor for you.
+Run the script ```./matide <existing working directory>``` or ```./matide``` (your current directory will be taken as the working directory). It will open a terminal and the text editor for you.
 
 Then, you can create Python scripts in Sublime Text to start coding.
 
@@ -98,3 +97,17 @@ The community and me will be very thankful if you can help to this project by:
 * Proposing or asking for enhancements.
 * Proposing an implementation for the **variable explorer**, which is not included in the current version.
 Any of these can be discussed in the **Issues** section. You can create a personal fork, and then send a pull request.
+
+## FAQ
+
+- It just works with gnome-terminal, but not with Guake.
+Comment the "For gnome-terminal" lines and uncomment the "For Guake" lines at the end of the ./matide script.
+
+- How do I return to my original Sublime-Text configuration?
+Your can restore your original Sublime-Text config file which is stored in ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings_backup. 
+
+
+
+
+
+
