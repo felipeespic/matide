@@ -100,11 +100,13 @@ Any of these can be discussed in the **Issues** section. You can create a person
 
 ## FAQ
 
-- It just works with gnome-terminal, but not with Guake.
-Comment the "For gnome-terminal" lines and uncomment the "For Guake" lines at the end of the ./matide script.
+- Q: It just works with gnome-terminal, but not with Guake.
 
-- How do I return to my original Sublime-Text configuration?
-Your can restore your original Sublime-Text config file which is stored in ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings_backup. 
+A: Comment the "For gnome-terminal" lines and uncomment the "For Guake" lines at the end of the ./matide script.
+
+- Q: How do I return to my original Sublime-Text configuration?
+
+A: Your can restore your original Sublime-Text config file which is stored in ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings_backup. 
 
 
 
