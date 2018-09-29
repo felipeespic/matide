@@ -38,8 +38,17 @@ cd $WORKDIR
 #   subl
 # fi
 
-# Launch terminal with tmux:
+
+# Launch terminal with tmux:-------------------------------
+
+#For gnome-terminal:
 gnome-terminal -e tmux
+
+#For guake:
+#guake -n $WORKDIR
+#guake -e tmux
+
+
 tmux set-buffer -- "ipython --ipython-dir=$FAKE_IPYTHON_DIR"
 tmux paste-buffer -d
 tmux send-keys Enter
