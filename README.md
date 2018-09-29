@@ -52,7 +52,7 @@ We will use SublimeText as the default text editor. To install it, just follow t
 3. Install the following set of Sublime Text packages:
    * SendCode
    * Anaconda (don't get confused with the Python package)
-   * PythonBreakpoints2
+   * PythonBreakpoints2 (before we just installed the repository)
    * Trailing Spaces
 
    To install them, follow the next steps per package:
