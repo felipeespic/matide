@@ -28,5 +28,8 @@ cp -f $IN_CONFIG_DIR/*.sublime-keymap   $OUT_CONFIG_DIR
 echo -e "\nATTENTION: Sublime Text configuration has been modified.\nJust in case, backup files of your old settings were created, so you can merge them with the ones provided by Matide if wanted (by hand)."
 echo -e "The files are:\n${OUT_CONFIG_DIR}/Default (Linux).sublime-keymap_backup\nand\n${OUT_CONFIG_DIR}/Preferences.sublime-settings_backup\n"
 
+# Setting up PdbEditorSupport:
+echo "import PdbEditorSupport" >> ~/.pdbrc
+echo "PdbEditorSupport.patch(editor='sublime')" >> ~/.pdbrc
 
 echo -e "Matide configured!\n"
