@@ -35,6 +35,7 @@ Install the following list of Python packages:
 * matplotlib
 * pyflakes
 * pep8
+* PdbEditorSupport
 
 I recommend installing them by using the command: ```pip install --upgrade <package>```
 ### III. Sublime Text
