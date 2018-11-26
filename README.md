@@ -45,7 +45,7 @@ We will use SublimeText as the default text editor. To install it, just follow t
 1. We need to install the "Package Control" (Sublime Text package manager), which will enable the installation of Sublime Text packages (plug-ins). Just follow the installing instructions from its [download webpage](https://packagecontrol.io/installation).
 
 2. Add the package __PythonBreakpoints2__ repository to Sublime Text:
-   1. From Sublime Text, press ```ctrl+shift+p (Win, Linux)``` or ```cmd+shift+p (OS X)``` to open the palette.
+   1. From Sublime Text, press ```ctrl+shift+p (Linux)``` or ```cmd+shift+p (OS X)``` to open the palette.
    2. Input in the palette: **_Package Control: Add Repository_**
    3. Input in the field that appeared at the bottom: **_https://<i></i>github.com/felipeespic/PythonBreakpoints2_**
 
@@ -57,22 +57,23 @@ We will use SublimeText as the default text editor. To install it, just follow t
    * Trailing Spaces
 
    To install them, follow the next steps per package:
-   1. From Sublime Text, press ```ctrl+shift+p (Win, Linux)``` or ```cmd+shift+p (OS X)``` to open the palette.
+   1. From Sublime Text, press ```ctrl+shift+p (Linux)``` or ```cmd+shift+p (OS X)``` to open the palette.
    2. Input in the palette: **_Package Control: Install Package_**
    3. Search by typing the package name, and enter to install.
 
 
 ### V. Some extra applications:
-We need some extra applications as well. So, install:
+We need some extra applications as well. So, for Linux install:
 * Gnome Terminal or Guake.
 * Tmux
-
-(e.g., in Ubuntu they can be installed by ```sudo apt install <application>```)
+For OS X:
+* Terminal or iTerm (>=2.9)
 
 ### VI. Configuration
-
+**For Linux:**
 Run the script ```./install/configure.sh```. It essentially configures Sublime Text and its packages previously installed.
-
+**For OS X:** 
+TODO
 
 ## Usage
 
