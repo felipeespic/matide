@@ -66,13 +66,17 @@ We will use SublimeText as the default text editor. To install it, just follow t
 We need some extra applications as well. So, for Linux install:
 * Gnome Terminal or Guake.
 * Tmux
+
 For OS X:
 * Terminal or iTerm (>=2.9)
 
 ### VI. Configuration
 **For Linux:**
+
 Run the script ```./install/configure.sh```. It essentially configures Sublime Text and its packages previously installed.
+
 **For OS X:** 
+
 TODO
 
 ## Usage
