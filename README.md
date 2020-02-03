@@ -27,7 +27,7 @@ Download **Matide** master directory and move it to its _definitive_ location in
 
 ### II. Python packages
 Install the following list of Python packages:
-* ipython (version 7.7, version 7.11 not working properly [use ```pip install ipython==7.7.0```])
+* ipython
 * ipdb
 * jedi
 * gnureadline
@@ -113,9 +113,5 @@ Any of these can be discussed in the **Issues** section. You can create a person
 - **Q:** How do I return to my original Sublime-Text configuration?
 
     **A:** Your can restore your original Sublime-Text config file which is stored in ```~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings_backup```.
-
-
-
-
 
 
