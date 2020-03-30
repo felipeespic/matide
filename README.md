@@ -27,7 +27,7 @@ Download **Matide** master directory and move it to its _definitive_ location in
 
 ### II. Python packages
 Install the following list of Python packages:
-* ipython
+* ipython (version 7.7, version 7.11 not working properly [use ```pip install ipython==7.7.0```])
 * ipdb
 * jedi
 * gnureadline
